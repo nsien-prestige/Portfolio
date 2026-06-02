@@ -238,7 +238,7 @@ export default function About() {
         </div>
 
         {/* timeline */}
-        <motion.div
+        {/* <motion.div
           ref={timelineRef}
           initial={{ opacity: 0, y: 24 }}
           animate={timelineInView ? { opacity: 1, y: 0 } : {}}
@@ -293,10 +293,10 @@ export default function About() {
               </motion.div>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* interests */}
-        <motion.div
+        {/* <motion.div
           ref={interestRef}
           initial={{ opacity: 0, y: 24 }}
           animate={interestInView ? { opacity: 1, y: 0 } : {}}
@@ -342,7 +342,7 @@ export default function About() {
               </motion.div>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
       </div>
     </section>
